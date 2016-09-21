@@ -1,3 +1,10 @@
+/**
+ *  Kevin's notes: nice work!  The next steps for turning some of your hard coded values
+ * into variables is to find patterns in the data.  If you find yourself repeating the same 
+ * number a lot, that's a good indication to create a variable.  Also, once we get to loops,
+ * you will be able to achieve the same with less written code.
+ *
+ */
 function setup() {
 
   createCanvas(500, 400);
