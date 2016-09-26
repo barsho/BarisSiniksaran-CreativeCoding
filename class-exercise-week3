@@ -1,0 +1,22 @@
+class exercise, week 3
+
+var numRects = 10;
+var x = 0;
+var y = 0;
+
+function setup(){
+  createCanvas(400,400);
+  noStroke();
+  rectMode(CENTER);
+}
+
+function draw(){
+  background(255);
+
+  for(var i = 1; i <= numRects; i++){
+    fill(random(255), random(255), random(255));
+    rect(x, y, x + 2, y + 2);
+    x++;
+    y++;
+  }
+}
