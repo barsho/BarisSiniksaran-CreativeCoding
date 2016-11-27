@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(1200, 7200);
   background(0);
   colorMode(RGB);
   from = color(196, 51, 26);
@@ -14,6 +14,6 @@ function draw() {
     strokeWeight(1);
     translate(i / frameCount * 10, i / 10 * frameCount);
     rotate(radians(i * frameCount));
-    triangle(300, 300, 20, 12, 20, 175);
+    triangle(1200, 7200, 20, 12, 20, 175);
   }
 }
