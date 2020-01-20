@@ -1,3 +1,5 @@
+//Kevin's notes: nice work!  comments inline...
+
 var zombieMode = false;
 var redEye = 0;
 var bgColor = 255;
@@ -13,7 +15,14 @@ function setup() {
 function draw(){
   background(bgColor);
   translate(translateX,translateY);
+	//instead of always passing in true, pass in the zombieMode variable
+	//that way you can switch the mode on and off with a click event like below
 	alpaca(true);
+}
+
+//suggested function to change the zombieMode
+function mousePressed(){
+  zombieMode = !zombieMode;
 }
 
 function alpaca(zombieMode){
@@ -85,5 +94,5 @@ function alpaca(zombieMode){
     
   }
 }
-
+//this function call not needed here.
 alpaca();
